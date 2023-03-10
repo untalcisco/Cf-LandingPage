@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Kanit&display=swap');
+
+:root{
+ --main-font: 'Josefin Sans', sans-serif;
+ --secundary-font:'Kanit', sans-serif;
+ --cf-black: #101014 ;
+ --cf-red: #ea1518;
+ --cf-white: #fffbff;
+--cf-golden: #d69a20;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  font-size:62.5%;
+  min-width: 320px;
+  scroll-behavior: smooth;
+}
+header {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: url('https://cdn.pixabay.com/photo/2018/04/11/18/27/gloves-3311299_1280.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: var(--secundary-font);
+}
+header h1{
+  color: var(--cf-red);
+  font-size:3rem;
+  padding: 20px;
+}
+header strong{
+  color: #d69a20;
+}
+header a{
+  color: var(--cf-white);
+  background-color: var(--cf-golden);
+  padding: 6px;
+  font-size: 1.5rem;
+  border-radius: 7px;
+  border: 2px white solid;
+  text-decoration: none;
+}
+main{
+  background-color: var(--cf-black);
+  width: 100%;
+  text-align: center;
+  font-family: var(--main-font);
+}
+/* ----- Actividades -----*/
+main .Dojo-activities{
+  width: 100%;
+  height: auto;
+  padding-bottom: 30px;
+  border-bottom: 2px dotted var(--cf-golden)
+}
+main .sub-title {
+  font-size: 2.5rem;
+  color: var(--cf-red);
+  padding:20px 0;
+  text-decoration: underline #d69a20;
+  font-family: var(--secundary-font);
+}
+main .name-activitie {
+  font-size: 2.5rem;
+  color: var(--cf-golden);
+  text-decoration: underline var(--cf-red);
+  margin-bottom: 10px;
+  font-weight: bolder;
+}
+main .description{
+  margin-top: 10px;
+  font-size: 1.8rem;
+}
+main .activities{
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(
+      230px,
+      1fr
+    )
+  );
+  gap: 20px; 
+  place-items: center;
+}
+main .activities .icon{
+  width: 80px;
+  height: 80px;
+}
+main .activities .card{
+  width: 230px;
+  height: 230px;
+  background-color: var(--cf-white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  border: 2px solid var(--cf-golden);
+}
+/* ----- Beneficios -----*/
+main .Dojo-Benefits{
+  width: 100%;
+  height: auto;
+  padding-bottom: 30px;
+  border-bottom: 2px solid var(--cf-golden);
+  text-align: center;
+}
+main .Dojo-Benefits span{
+  font-size: 1.8rem;
+  color: white;
+  text-align: center;
+}
+main .Dojo-Benefits strong{
+  color: var(--cf-golden);
+}
+main .Dojo-Benefits .icon{
+  width: 70px;
+  height: 70px;
+}
+main .benefits{
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(
+      300px,
+      1fr
+    )
+  );
+  gap: 20px; 
+  place-items: center;
+  padding-top: 30px;
+}
+main .benefits .card-1{
+  width: 300px;
+  height: 230px;
+  background-color: var(--cf-white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  border: 2px solid var(--cf-golden);
+}
+main .benefits .card-1 p{
+  font-size: 1.7rem;
+  padding-bottom: 10px;
+}
+main .benefits .card-1 span{
+  color: black;
+  font-size: 1.3rem;
+  padding: 10px;
+}
+/*-----Sobre Nosotros -----*/
+main .about-us{
+  width: 100%;
+  height: auto;
+  padding-bottom: 30px;
+  border-bottom: 2px solid var(--cf-golden);
+ 
+}
+main .about-us .text{
+  font-size: 1.7rem;
+  color: #d69a20;
+  padding: 15px;
+}
+main .about-us .text-2{
+  font-size: 1.7rem;
+  color: #d69a20;
+  padding-bottom: 30px;
+}
+main .about-us a{
+  font-size: 1.7rem;
+  color: var(--cf-red);
+  text-decoration: none;
+  border: 2px solid var(--cf-red);
+  padding: 10px;
+  border-radius: 20px;
+}
+/*-----Head Coach -----*/
+main .Head-coach{
+  width: 100%;
+  height: auto;
+  padding-bottom: 30px;
+  border-bottom: 2px solid var(--cf-golden)
+}
+main .Head-coach .coach-info{
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(
+      230px,
+      1fr
+    )
+  );
+  gap: 20px; 
+  place-items: center;
+}
+main .Head-coach .coach-card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+main .Head-coach .coach-info .Coach-name{
+  font-size: 2rem;
+  color: var(--cf-golden);
+  padding: 20px;
+}
+main .Head-coach .coach-info img{
+  width:230px;
+  height: 230px;
+  border-radius: 50%;
+  border: 3px inset var(--cf-golden);
+}
+main .coach-info .cv-text li{
+  font-size: 1.7rem;
+  color: #d69a20;
+  padding: 3px;
+  list-style:disc;
+  text-align:center;
+}
+/*----- Logros -----*/
+main .logros{
+  width: 100%;
+  height: auto;
+  padding-bottom: 30px;
+  border-bottom: 2px dotted var(--cf-golden)
+}
+main .logros .text{
+  font-size: 1.7rem;
+  color: #d69a20;
+  padding: 15px;
+}
+main .logros .peleadores{
+  font-size: 1.7rem;
+  color: #d69a20;
+  padding-bottom: 30px;
+}
+main .logros .peleadores li{
+  padding: 5px;
+  list-style: none;
+
+}
