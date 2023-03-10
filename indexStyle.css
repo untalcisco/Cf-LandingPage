@@ -26,7 +26,7 @@ header {
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-image: url('https://cdn.pixabay.com/photo/2018/04/11/18/27/gloves-3311299_1280.jpg');
+  background-image: url('https://drive.google.com/uc?id=1wjxXnbPHAx9bafh4xjKfSfTnW9aSBo0R');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -36,9 +36,6 @@ header h1{
   color: var(--cf-red);
   font-size:3rem;
   padding: 20px;
-}
-header strong{
-  color: #d69a20;
 }
 header a{
   color: var(--cf-white);
@@ -106,6 +103,25 @@ main .activities .card{
   justify-content: center;
   border-radius: 20px;
   border: 2px solid var(--cf-golden);
+  }
+main .Horarios{
+  padding-top: 20px;
+}
+main .Horarios .Tittle-Horarios{
+  font-size: 2.5rem;
+  color: red;
+  text-decoration: underline var(--cf-golden);
+  padding-bottom: 10px;
+}
+main .Horarios .Dias{
+  color: white;
+  font-size: 2rem;
+  padding-top: 10px;
+}
+main .Horarios .Horas{
+  font-size: 1.7rem;
+  color: red;
+  padding: 10px;
 }
 /* ----- Beneficios -----*/
 main .Dojo-Benefits{
