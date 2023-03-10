@@ -123,6 +123,11 @@ main .Horarios .Horas{
   color: red;
   padding: 10px;
 }
+main .Horarios .Costo{
+  font-size: 1.8rem;
+  padding-top: 10px;
+  color: var(--cf-golden);
+}
 /* ----- Beneficios -----*/
 main .Dojo-Benefits{
   width: 100%;
@@ -247,24 +252,32 @@ main .coach-info .cv-text li{
   text-align:center;
 }
 /*----- Logros -----*/
-main .logros{
+main .Federaciones{
   width: 100%;
   height: auto;
   padding-bottom: 30px;
   border-bottom: 2px dotted var(--cf-golden)
 }
-main .logros .text{
+main .Federaciones .text{
   font-size: 1.7rem;
   color: #d69a20;
   padding: 15px;
 }
-main .logros .peleadores{
-  font-size: 1.7rem;
-  color: #d69a20;
-  padding-bottom: 30px;
+  main .Federaciones .afiliaciones{
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(
+      100px,
+      1fr
+    )
+  );
+  gap: 20px; 
+  place-items: center;
+    padding-top: 20px;
 }
-main .logros .peleadores li{
-  padding: 5px;
-  list-style: none;
-
+main .Federaciones .afiliaciones img{
+  width:100px;
+  height: 100px;
+  border-radius: 50%;
 }
