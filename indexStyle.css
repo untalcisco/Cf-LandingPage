@@ -274,7 +274,7 @@ main .Federaciones .text{
   );
   gap: 20px; 
   place-items: center;
-    padding-top: 20px;
+  padding: 20px;
 }
 main .Federaciones .afiliaciones img{
   width:100px;
