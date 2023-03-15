@@ -26,14 +26,14 @@ header {
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-image: url('https://cdn.pixabay.com/photo/2018/04/11/18/27/gloves-3311299_1280.jpg');
+  background-image: url('https://drive.google.com/uc?id=1wjxXnbPHAx9bafh4xjKfSfTnW9aSBo0R');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   font-family: var(--secundary-font);
 }
 header h1{
-  color: var(--cf-red);
+  color: white;
   font-size:3rem;
   padding: 20px;
 }
