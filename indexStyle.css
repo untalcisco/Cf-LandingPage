@@ -134,16 +134,20 @@ main .Dojo-Benefits{
   height: auto;
   padding-bottom: 30px;
   border-bottom: 2px solid var(--cf-golden);
-  text-align: center;
 }
-main .Dojo-Benefits span{
+main .Dojo-Benefits .ben-text{
   font-size: 1.8rem;
   color: white;
   text-align: center;
+  color: var(--cf-golden);
+  padding: 0 40px;
+  text-align: justify;
 }
-main .Dojo-Benefits strong{
+
+main .Dojo-Benefits span strong{
   color: var(--cf-golden);
 }
+
 main .Dojo-Benefits .icon{
   width: 70px;
   height: 70px;
@@ -187,17 +191,26 @@ main .about-us{
   height: auto;
   padding-bottom: 30px;
   border-bottom: 2px solid var(--cf-golden);
- 
+  
 }
 main .about-us .text{
   font-size: 1.7rem;
   color: #d69a20;
-  padding: 15px;
+  padding: 20px;
+  text-align: justify;
 }
 main .about-us .text-2{
   font-size: 1.7rem;
   color: #d69a20;
-  padding-bottom: 30px;
+  padding: 20px;
+  text-align: justify;
+}
+main .about-us .text-3{
+  font-size: 1.7rem;
+  color: #d69a20;
+  padding: 20px;
+  text-align: justify;
+  margin-bottom: 20px;
 }
 main .about-us a{
   font-size: 1.7rem;
@@ -244,12 +257,11 @@ main .Head-coach .coach-info img{
   border-radius: 50%;
   border: 3px inset var(--cf-golden);
 }
-main .coach-info .cv-text li{
-  font-size: 1.7rem;
-  color: #d69a20;
-  padding: 3px;
-  list-style:disc;
-  text-align:center;
+
+main .Head-coach .coach-CV p{
+  font-size: 1.5rem;
+  color: white;
+  margin: 20px;
 }
 /*----- Logros -----*/
 main .Federaciones{
@@ -261,7 +273,8 @@ main .Federaciones{
 main .Federaciones .text{
   font-size: 1.7rem;
   color: #d69a20;
-  padding: 15px;
+  padding: 10px 25px;
+  text-align: justify;
 }
   main .Federaciones .afiliaciones{
   display: grid;
