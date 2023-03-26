@@ -220,24 +220,78 @@ main .benefits .card-1 span{
   font-size: 1.3rem;
   padding: 10px;
 }
-/* main .benefits .nutri{
-  background-image: url('https://drive.google.com/uc?id=11u7cXe3tNPdfbobvt9iBCshZgL72pxZS');
+main .benefits .nutri{
+  background-image: url('https://drive.google.com/uc?id=1Q6qe82Xlg3iiAeYeJURJ4u315OoIkuWC');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+}
+main .benefits .nutri span{
+  color: white;
+}
+main .benefits .nutri p{
+  color: var(--cf-golden);
 }
 main .benefits .gym{
-  background-image: url('https://drive.google.com/uc?id=17E8SyiyfEX-dWv0zO0CJQeZARisVTxGe');
+  background-image: url('https://drive.google.com/uc?id=17nrz7fjMiv4eWCqST9pKdGy1io7Go_F6');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
+main .benefits .gym span{
+  color: white;
+}
+main .benefits .gym p{
+  color: var(--cf-golden);
+}
 main .benefits .quiro{
-  background-image: url('https://drive.google.com/uc?id=1xhLO_o4MeokqdH1UypQz0fITkj-jBByP');
+  background-image: url('https://drive.google.com/uc?id=1AB6cWnSLgBq_aloT77oWD4qdbHZ7YsLk');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-} */
+}
+main .benefits .quiro span{
+  color: white;
+}
+main .benefits .quiro p{
+  color: var(--cf-golden);
+}
+main .benefits .cosm{
+  background-image: url('https://drive.google.com/uc?id=1wlYswvm6KJVppOfqqMyWENaw4FSvEe9i');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+main .benefits .cosm span{
+  color: white;
+}
+main .benefits .cosm p{
+  color: var(--cf-golden);
+}
+main .benefits .fisio{
+  background-image: url('https://drive.google.com/uc?id=1i7PwdEjoJzeHpyJnaTdNnpclBbdD8FpJ');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+main .benefits .fisio span{
+  color: white;
+}
+main .benefits .fisio p{
+  color: var(--cf-golden);
+}
+main .benefits .cfl{
+  background-image: url('https://drive.google.com/uc?id=1aiY1EpzKDQCIY-hVYyNSRGSXMqMhjb4U');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+main .benefits .cfl span{
+  color: white;
+}
+main .benefits .cfl p{
+  color: var(--cf-golden);
+}
 /*-----Sobre Nosotros -----*/
 main .about-us{
   width: 100%;
