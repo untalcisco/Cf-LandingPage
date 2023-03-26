@@ -128,6 +128,41 @@ main .Horarios .Costo{
   padding-top: 10px;
   color: var(--cf-golden);
 }
+/* Sucursales */
+main .sucursales{
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(
+      250px,
+      1fr
+    )
+  );
+  gap: 20px; 
+  place-items: center;
+}
+main .sucursales .centro{
+  height: 300px;
+  width: 250px;
+  background-color: #d69a20;
+  background-image: url('https://drive.google.com/uc?id=1u1AiYJ8cZRXRxDr8-Ns3iV30CttGwBDL');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 30px;
+  border: 2px solid var(--cf-golden);
+}
+main .sucursales .colosio{
+  height: 300px;
+  width: 250px;
+  background-color: #d69a20;
+  background-image: url('https://drive.google.com/uc?id=1sKKFE2nZdqntRlEkw5eYe9OOlH8Wg7IM');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 30px;
+  border: 2px solid var(--cf-golden);
+}
 /* ----- Beneficios -----*/
 main .Dojo-Benefits{
   width: 100%;
@@ -185,6 +220,24 @@ main .benefits .card-1 span{
   font-size: 1.3rem;
   padding: 10px;
 }
+/* main .benefits .nutri{
+  background-image: url('https://drive.google.com/uc?id=11u7cXe3tNPdfbobvt9iBCshZgL72pxZS');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+main .benefits .gym{
+  background-image: url('https://drive.google.com/uc?id=17E8SyiyfEX-dWv0zO0CJQeZARisVTxGe');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+main .benefits .quiro{
+  background-image: url('https://drive.google.com/uc?id=1xhLO_o4MeokqdH1UypQz0fITkj-jBByP');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+} */
 /*-----Sobre Nosotros -----*/
 main .about-us{
   width: 100%;
@@ -251,17 +304,22 @@ main .Head-coach .coach-info .Coach-name{
   color: var(--cf-golden);
   padding: 20px;
 }
-main .Head-coach .coach-info img{
+main .Head-coach .coach-info .img{
   width:230px;
   height: 230px;
   border-radius: 50%;
   border: 3px inset var(--cf-golden);
+  background-image: url('https://drive.google.com/uc?id=1D3JoSICuF-tk7jgGF4EAzQg7ULo8k9EQ');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 main .Head-coach .coach-CV p{
   font-size: 1.5rem;
   color: white;
   margin: 20px;
+  text-align: justify;
 }
 /*----- Logros -----*/
 main .Federaciones{
@@ -281,7 +339,7 @@ main .Federaciones .text{
   grid-template-columns: repeat(
     auto-fit,
     minmax(
-      100px,
+      140px,
       1fr
     )
   );
@@ -289,8 +347,43 @@ main .Federaciones .text{
   place-items: center;
   padding: 20px;
 }
-main .Federaciones .afiliaciones img{
-  width:100px;
-  height: 100px;
+main .Federaciones .afiliaciones .img-bjj{
+  width:150px;
+  height: 150px;
   border-radius: 50%;
+  border: solid 2px var(--cf-golden);
+  background-image: url('https://drive.google.com/uc?id=1x-6KSid_dM0MiPKAXGRmqZQYHndwzJ-5');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+main .Federaciones .afiliaciones .img-kick{
+  width:150px;
+  height: 150px;
+  border-radius: 50%;
+  border: solid 2px var(--cf-golden);
+  background-image: url('https://drive.google.com/uc?id=1NaHTOOpvA60SIcUgl4E8SvpIXdHHTgsl');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+main .Federaciones .afiliaciones .img-wkc{
+  width:150px;
+  height: 150px;
+  border-radius: 50%;
+  border: solid 2px var(--cf-golden);
+  background-image: url('https://drive.google.com/uc?id=18Kwz1h8we6rt43034eWflU7SBpAJKCMr');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+main .Federaciones .afiliaciones .img-mma{
+  width:150px;
+  height: 150px;
+  border-radius: 50%;
+  border: solid 2px var(--cf-golden);
+  background-image: url('https://drive.google.com/uc?id=1t6wJYJtrvAWBY6jAuxC3UkmPDSrA9w9l');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
