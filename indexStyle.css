@@ -332,7 +332,6 @@ main .Head-coach{
   width: 100%;
   height: auto;
   padding-bottom: 30px;
-  border-bottom: 2px solid var(--cf-golden)
 }
 main .Head-coach .coach-info{
   display: grid;
@@ -351,7 +350,7 @@ main .Head-coach .coach-card{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  
+
 }
 main .Head-coach .coach-info .Coach-name{
   font-size: 2rem;
@@ -370,6 +369,52 @@ main .Head-coach .coach-info .img{
 }
 
 main .Head-coach .coach-CV p{
+  font-size: 1.5rem;
+  color: white;
+  margin: 20px;
+  text-align: justify;
+}
+/* Coach box */
+main .box-coach{
+  width: 100%;
+  height: auto;
+  padding-bottom: 30px;
+  border-bottom: 2px solid var(--cf-golden)
+}
+main .box-coach .box-info{
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(
+      230px,
+      1fr
+    )
+  );
+  gap: 20px; 
+  place-items: center;
+}
+main .box-coach .box-card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main .box-coach .boxC-name{
+  font-size: 2rem;
+  color: var(--cf-golden);
+  padding: 20px;
+}
+main .box-coach .box-img{
+  width:230px;
+  height: 230px;
+  border-radius: 50%;
+  border: 3px inset var(--cf-golden);
+  background-image: url('https://drive.google.com/uc?id=1JxCOy3Rl6oD6WUo7xhjo4r4o2Xolstwj');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+main .box-coach .box-CV p{
   font-size: 1.5rem;
   color: white;
   margin: 20px;
