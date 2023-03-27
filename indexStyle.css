@@ -128,6 +128,11 @@ main .Horarios .Costo{
   padding-top: 10px;
   color: var(--cf-golden);
 }
+main .Horarios .Costa-azul{
+  font-size: 1.8rem;
+  padding-top: 10px;
+  color: var(--cf-golden);
+}
 /* Sucursales */
 main .sucursales{
   display: grid;
@@ -141,6 +146,18 @@ main .sucursales{
   gap: 20px; 
   place-items: center;
 }
+main .sucursales .costaAzul{
+  height: 300px;
+  width: 250px;
+  background-color: #d69a20;
+  background-image: url('https://drive.google.com/uc?id=1h7v5D-DMAl67flNhJb2XjHOV0_c0oe9p');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 30px;
+  border: 2px solid var(--cf-golden);
+}
+
 main .sucursales .centro{
   height: 300px;
   width: 250px;
@@ -482,6 +499,26 @@ main .Federaciones .afiliaciones .img-mma{
   border-radius: 50%;
   border: solid 2px var(--cf-golden);
   background-image: url('https://drive.google.com/uc?id=1t6wJYJtrvAWBY6jAuxC3UkmPDSrA9w9l');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+main .Federaciones .afiliaciones .img-box{
+  width:150px;
+  height: 150px;
+  border-radius: 50%;
+  border: solid 2px var(--cf-golden);
+  background-image: url('https://drive.google.com/uc?id=1LtSgo9qlKsZ_Wai8TGSLfrRcOQYUWNd9');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+main .Federaciones .afiliaciones .img-CEAMM{
+  width:150px;
+  height: 150px;
+  border-radius: 50%;
+  border: solid 2px var(--cf-golden);
+  background-image: url('https://drive.google.com/uc?id=1XDoed6qJ5laNG0Z7qhRJMht_ZIvYNJ0G');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
